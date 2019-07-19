@@ -1,0 +1,24 @@
+{
+  "name": "devforum",
+  "version": "1.0.0",
+  "description": "CodeceptJS + Puppeteer tests",
+  "main": "NavigateHomepage_test.js",
+  "dependencies": {
+    "codeceptjs": "^2.2.0",
+    "puppeteer": "^1.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jelmarose@github.com/jelmarose/CodeceptJSTests.git"
+  },
+  "author": "Jelmarose De Vera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jelmarose/CodeceptJSTests/issues"
+  },
+  "homepage": "https://github.com/jelmarose/CodeceptJSTests#readme"
+}

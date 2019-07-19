@@ -36,3 +36,10 @@ Scenario('View posts tagged with QUICKREACH', (I) => {
     I.wait(3);
 })
 
+Scenario('Search posts with query "test"', (I) => {
+    I.amOnPage('http://devforum.azurewebsites.net/');
+    I.waitForElement('//*[@id="term"]');
+    I.fillField('//*[@id="term"]', 'test');
+    I.pressKey('Enter');
+    I.wait(3);
+})
